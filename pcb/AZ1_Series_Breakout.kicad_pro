@@ -305,7 +305,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "bom\\alicat_controller.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -391,6 +391,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage",
+          "name": "Voltage",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -400,7 +406,18 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "LCD": [
+        "SDA",
+        "SCL",
+        "A0",
+        "~{CS1B}",
+        "~{RST}",
+        "R-",
+        "G-",
+        "B-"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -441,7 +458,7 @@
         "uuid": "270788f4-b5d3-4481-9c95-b80269d19e59"
       }
     ],
-    "used_designators": "#FLG1-2,J1,R1-3,C1-8,#PWR1-11,U1",
+    "used_designators": "#FLG1-2,J1,R1-3,C1-8,#PWR1-12,U1",
     "variants": []
   },
   "sheets": [
