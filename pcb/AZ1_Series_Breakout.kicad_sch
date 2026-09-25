@@ -2571,7 +2571,7 @@
 		(uuid "623b9e27-964e-4884-ae56-1b04c782d81a")
 	)
 	(label "~{RST}"
-		(at 80.01 92.71 0)
+		(at 80.01 90.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2651,7 +2651,7 @@
 		(uuid "e5acea65-ca64-40e5-a5c7-385636e119ee")
 	)
 	(label "~{CS1B}"
-		(at 80.01 90.17 0)
+		(at 80.01 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
